@@ -23,7 +23,8 @@ class CreateCotizacionsTable extends Migration
             $table->date('Fecha_E');
             $table->date('Fecha_S');
             $table->integer('cant_per');
-            $table->string('adm');      
+            $table->string('adm');
+            $table->timestamps();      
         }); 
     }
 

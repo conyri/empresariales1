@@ -47,8 +47,18 @@
         </div> 
 
         <div class="form-group">           
-            <label for="quantity">Telefono:</label>           
-            <input type="text" class="form-control" name="Telefono" value={{ $clientes->Telefono }} />        
+            <label for="quantity">fono:</label>           
+            <input type="text" class="form-control" name="fono" value={{ $clientes->fono }} />        
+        </div>
+ 
+        <div class="form-group">           
+            <label for="quantity">correo:</label>           
+            <input type="text" class="form-control" name="correo" value={{ $clientes->correo }} />        
+        </div>
+
+        <div class="form-group">           
+            <label for="quantity">clave:</label>           
+            <input type="text" class="form-control" name="clave" value={{ $clientes->clave }} />        
         </div>
  
        <button type="submit" class="btn btn-success mt-0 ml-3">Actualizar</button>        

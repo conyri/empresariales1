@@ -17,7 +17,8 @@ class CreateServiciosTable extends Migration
             $table->id('Rut_serv');             
             $table->string('nombre',);             
             $table->string('Descripts');             
-            $table->integer('Preciodia_S');                     
+            $table->integer('Preciodia_S');
+            $table->timestamps();                     
         });
     }
 

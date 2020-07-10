@@ -25,7 +25,7 @@ class CreateReservasTable extends Migration
             $table->integer('costo_total');  
             $table->integer('descuento');  
             $table->integer('costobruto');  
-                   
+            $table->timestamps();
         });
     }
 

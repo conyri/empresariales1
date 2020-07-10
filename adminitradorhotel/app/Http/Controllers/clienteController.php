@@ -50,8 +50,7 @@ class ClienteController extends Controller {
     }
     
      public function update(Request $request, $id) {         
-         $request->validate([           
-            'Rut'=>'required|integer',         
+         $request->validate([                    
             'nombre' =>'required',         
             'apellido'=>'required',
             'fono'=>'required|integer',
@@ -59,8 +58,7 @@ class ClienteController extends Controller {
             'clave'=>'required|integer'           
         ]);         
              
-             $cli = $clientes::find($id);         
-             $cli->Rut = $request->get('Rut');         
+             $cli = $clientes::find($id);                  
              $cli->nombre  = $request->get('nombre');         
              $cli->apellido = $request->get('apellido');
              $cli->fono = $request->get('fono');

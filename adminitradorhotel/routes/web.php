@@ -19,3 +19,4 @@ Route::get('/', function () {
 
 Route::resource('/administrador','administradorController');
 Route::resource('/cliente','ClienteController');
+Route::resource('/cotizacion','cotizacionController');

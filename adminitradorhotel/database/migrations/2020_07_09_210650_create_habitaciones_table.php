@@ -19,7 +19,8 @@ class CreateHabitacionesTable extends Migration
             $table->date('diadisp');             
             $table->string('info');
             $table->integer('cant_p');             
-            $table->integer('precio_dia');                  
+            $table->integer('precio_dia');
+            $table->timestamps();                  
         });
     }
 

@@ -17,7 +17,8 @@ class CreateEstaResvsTable extends Migration
             $table->id('id_est');
             $table->integer('reserva');              
             $table->string('estado');             
-            $table->string('admin');    
+            $table->string('admin');
+            $table->timestamps();    
         });
     }
 

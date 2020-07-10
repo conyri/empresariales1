@@ -87,7 +87,7 @@
             <div class="links">                     
                 <a href="/administrador">Adminitrador  </a>                     
                 <a href="/cliente"   >CLIENTES   </a>                     
-                <a href="/habitaciones">Habitaciones</a>                 
+                <a href="/cotizacion">cotizacion</a>                 
             </div> 
             </div>
         </div>
