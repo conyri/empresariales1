@@ -80,14 +80,17 @@
             @endif
 
             <div class="content">                 
-            <div class="title m-b-md">                     
-            TIENDAS ACME                 
+            HOTEL CLUB UCT                
             </div> 
 
             <div class="links">                     
                 <a href="/administrador">Adminitrador  </a>                     
                 <a href="/cliente"   >CLIENTES   </a>                     
-                <a href="/cotizacion">cotizacion</a>                 
+                <a href="/cotizacion">COTIZACION</a> 
+                <a href="/est_revs">ESTO DE RESEVA</a> 
+                <a href="/habitaciones">HABITACIONES</a> 
+                <a href="/reservas">RESERVAS</a>
+                <a href="/servicios">SERVICIOS</a>                 
             </div> 
             </div>
         </div>
