@@ -83,8 +83,7 @@
             HOTEL CLUB UCT                
             </div> 
 
-            <div class="links">                     
-                <a href="/administrador">Adminitrador  </a>                     
+            <div class="links">                                          
                 <a href="/cliente"   >CLIENTES   </a>                     
                 <a href="/cotizacion">COTIZACION</a> 
                 <a href="/est_revs">ESTO DE RESEVA</a> 
