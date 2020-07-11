@@ -12,6 +12,7 @@
  
   <a href="/" class="btn btn-primary">  Inicio </a>    
   <a href="{{ route('est_revs.create') }}" class="btn btn-success mt-0 ml-0">  Agregar </a>  
+  
  
   <font size=6>LISTADO DE estado de reservas</font> 
  

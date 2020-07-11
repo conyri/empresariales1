@@ -91,6 +91,11 @@
                 <a href="/reservas">RESERVAS</a>
                 <a href="/servicios">SERVICIOS</a>                 
             </div> 
+                <div id="u7" class="ax_default primary_button">
+                <div id="u7_div" class=""></div>
+                <div id="u7_text" class="text ">
+                <p><span>Inicia Sesion</span></p>
+            </div>
             </div>
         </div>
     </body>

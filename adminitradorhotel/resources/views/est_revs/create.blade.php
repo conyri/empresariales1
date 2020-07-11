@@ -9,7 +9,7 @@
 </style> 
  
 <div class="card uper"> 
- 
+    <a href="{{ route('est_revs.index') }}" class="btn btn-primary">  ATRAS </a>
     <div class="card-header">     
         Nuevo Cliente  
     </div> 
