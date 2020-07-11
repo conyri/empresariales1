@@ -12,13 +12,13 @@
         <!-- Styles -->
         <style>
             html, body {
-                background-color: #fff;
                 color: #636b6f;
                 font-family: 'Nunito', sans-serif;
                 font-weight: 200;
                 height: 100vh;
                 margin: 0;
             }
+
 
             .full-height {
                 height: 100vh;
@@ -61,6 +61,7 @@
             .m-b-md {
                 margin-bottom: 30px;
             }
+
         </style>
     </head>
     <body>
@@ -90,12 +91,6 @@
                 <a href="/habitaciones">HABITACIONES</a> 
                 <a href="/reservas">RESERVAS</a>
                 <a href="/servicios">SERVICIOS</a>                 
-            </div> 
-                <div id="u7" class="ax_default primary_button">
-                <div id="u7_div" class=""></div>
-                <div id="u7_text" class="text ">
-                <p><span>Inicia Sesion</span></p>
-            </div>
             </div>
         </div>
     </body>

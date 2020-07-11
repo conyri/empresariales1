@@ -14,7 +14,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('principal');
+    return view('welcome');
 });
 
 Route::resource('/administrador','administradorController');
@@ -25,3 +25,7 @@ Route::resource('/habitaciones','habitacionesController');
 Route::resource('/reservas','reservasController');
 Route::resource('/servicios','serviciosController');
 
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
