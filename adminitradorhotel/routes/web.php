@@ -20,3 +20,7 @@ Route::get('/', function () {
 Route::resource('/administrador','administradorController');
 Route::resource('/cliente','ClienteController');
 Route::resource('/cotizacion','cotizacionController');
+Route::resource('/est_revs','est_resvsController');
+Route::resource('/habitaciones','habitacionesController');
+Route::resource('/reservas','reservasController');
+Route::resource('/servicios','serviciosController');
