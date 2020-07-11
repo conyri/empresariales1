@@ -1,0 +1,2 @@
+INSERT INTO `administradors`(`Rut_Adm`, `nombre`, `cargo`, `correo`, `clave`) VALUES ('12.345.235-6', 'Daniela Lopez', 'Recepcionista', 'daniela.lopez@clubjob.com', 'lopiela34');
+INSERT INTO `administradors`(`Rut_Adm`, `nombre`, `cargo`, `correo`, `clave`) VALUES ('15.345.286-9', 'Javiera Diaz', 'Recepcionista', 'javiera.diaz@clubjob.com', 'diazviera19');

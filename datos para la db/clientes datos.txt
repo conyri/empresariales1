@@ -1,0 +1,2 @@
+INSERT INTO `clientes`(`Rut`, `nombre`, `apellido`, `fono`, `correo`, `clave`, `created_at`, `updated_at`) VALUES  ('14.563.923-5', 'Josue', 'Jaramillo', '945672345', 'jmillo@gmail.com', 'pelusa234','','');
+INSERT INTO `clientes`(`Rut`, `nombre`, `apellido`, `fono`, `correo`, `clave`, `created_at`, `updated_at`) VALUES ('17.342.394-4', 'Carla', 'Carrizo', '934926783', 'carla.emy@gmail.com', 'rizo876','','');

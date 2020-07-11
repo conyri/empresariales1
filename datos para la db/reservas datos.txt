@@ -1,0 +1,1 @@
+INSERT INTO `reservas`(`N_rsv`, `Rut_client`, `N_hab`, `fecha_E`, `fecha_S`, `total_dias`, `servicios`, `costo_dia`, `costo_total`, `descuento`, `costobruto`, `created_at`, `updated_at`) VALUES ('1', '17.342.394-4', '21', '2020-07-01', '2020-07-05', '5', 'sv04', '200000', '1017990', '200000', '817990','','');

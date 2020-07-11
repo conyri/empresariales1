@@ -1,0 +1,1 @@
+INSERT INTO `esta_resv`(`id_est`, `reserva`, `estado`, `admin`, `created_at`, `updated_at`) VALUES ('10', '1', 'Aprobada', '15.345.286-9','','');
