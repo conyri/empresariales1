@@ -31,6 +31,9 @@ Route::get('/promociones', function () {
 Route::get('/restaurant', function () {
     return view('restaurant');
 });
+Route::get('/principaladmin', function () {
+    return view('principaladmin');
+});
 
 Route::resource('/administrador','administradorController');
 Route::resource('/cliente','ClienteController');
