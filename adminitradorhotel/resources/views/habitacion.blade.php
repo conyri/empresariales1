@@ -12,7 +12,8 @@
         <img src="/imagenes/u0.jpg"  width="1535" height="500" />
         <style>
             html, body {
-                color: #636b6f;
+                background-color: #E9D886;
+                color: #E0C84F;
                 font-family: 'Nunito', sans-serif;
                 font-weight: 200;
                 height: 100vh;
@@ -38,7 +39,7 @@
 
             .top-right {
                 position: absolute;
-                right: 100px;
+                right: 210px;
                 top: 380px;
             }
 
@@ -75,6 +76,10 @@
                 border: 3px black groove;
                 background-color: #D8E04F;
             }
+            .imagenes{
+                position: relative;
+
+            }
 
         </style>
     </head>
@@ -94,7 +99,16 @@
                 <a href="/eventos">EVENTOS Y SALONES</a>  
                 <a href="/fitnessclub">FITNESS CLUB</a> 
                 <a href="/promociones">PROMOCIONES </a>            
-            </div>    
+            </div>
+            
+            <strong><font color="black" size="4px" align="center" > <h1 >Hermosas habitaciones y suites amuebladas</h1> </font></strong>
+
+        <div class="imagenes">
+            <img width="500" height="400" src="/imagenes/a01.jpg" top="700px" right="800px" />
+            <font color="black" ><p ><h1>Junior Suite</h1> <br>La suite premium reúne espacio, lujo y elegancia para crear un verdadero oasis urbano. Con 
+            la cama extra grande, esta suite también cuenta con un escritorio,  área de estar con dos cómodos sofás y un cuarto 
+            de baño exquisito </p></font>
+        </div>
         
     </body>
 </html>

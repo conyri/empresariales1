@@ -12,7 +12,7 @@
         <img src="/imagenes/u0.jpg"  width="1535" height="500" />
         <style>
             html, body {
-                color: #636b6f;
+                color: #E0C84F;
                 font-family: 'Nunito', sans-serif;
                 font-weight: 200;
                 height: 100vh;
@@ -93,7 +93,7 @@
                 <a href="/restaurant">RESTAURANT</a> 
                 <a href="/eventos">EVENTOS Y SALONES</a>  
                 <a href="/fitnessclub">FITNESS CLUB</a> 
-                <a href="/habitaciones">PHABITACIONES </a>            
+                <a href="/habitaciones">HABITACIONES </a>            
             </div>    
         
     </body>
