@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Laravel</title>
+        <title>Hotel club UCT</title>
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
@@ -12,6 +12,8 @@
         <!-- Styles -->
         <style>
             html, body {
+                background: url("/imagenes/u0.jpg");
+                background-size: cover;
                 color: #636b6f;
                 font-family: 'Nunito', sans-serif;
                 font-weight: 200;
@@ -21,7 +23,7 @@
 
 
             .full-height {
-                height: 100vh;
+                height: 100;
             }
 
             .flex-center {
@@ -42,10 +44,13 @@
 
             .content {
                 text-align: center;
+                font-size: 50px;
+                color: #FFFFFF;
             }
 
             .title {
-                font-size: 84px;
+                font-size: 100px;
+                color: #040404;
             }
 
             .links > a {
@@ -55,7 +60,9 @@
                 font-weight: 600;
                 letter-spacing: .1rem;
                 text-decoration: none;
-                text-transform: uppercase;
+                text-transform: uppercase;         
+                border: 3px black groove;
+                background-color: #D8E04F;
             }
 
             .m-b-md {
@@ -65,7 +72,8 @@
         </style>
     </head>
     <body>
-        <div class="flex-center position-ref full-height">
+        
+        <div class=" full-height flex-center">
             @if (Route::has('login'))
                 <div class="top-right links">
                     @auth
@@ -78,20 +86,27 @@
                         @endif
                     @endauth
                 </div>
-            @endif
-
-            <div class="content">                 
-            HOTEL CLUB UCT                
-            </div> 
-
-            <div class="links">                                          
-                <a href="/cliente"   >CLIENTES   </a>                     
-                <a href="/cotizacion">COTIZACION</a> 
-                <a href="/est_revs">ESTO DE RESEVA</a> 
-                <a href="/habitaciones">HABITACIONES</a> 
-                <a href="/reservas">RESERVAS</a>
-                <a href="/servicios">SERVICIOS</a>                 
-            </div>
+            @endif      
         </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br> 
+        <div class="content">                 
+            <h1>HOTEL CLUB UCT</h1>               
+        </div> 
+        <br>
+        <br>
+        <br>   
+            <div class="links flex-center ">                                                            
+                <a href="/cotizacion"></a> 
+                <a href="/est_revs"></a>  
+                <a href="/habitaciones"></a> 
+                <a href="/reservas"></a>
+                <a href="/servicios"></a>                 
+            </div>    
+        
     </body>
 </html>
