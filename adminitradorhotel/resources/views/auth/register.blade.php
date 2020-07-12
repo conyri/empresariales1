@@ -11,6 +11,7 @@
                     <form method="POST" action="{{ route('register') }}">
                         @csrf
 
+
                         <div class="form-group row">
                             <label for="name" class="col-md-4 col-form-label text-md-right">{{ __('Name') }}</label>
 
@@ -25,6 +26,8 @@
                             </div>
                         </div>
 
+
+
                         <div class="form-group row">
                             <label for="email" class="col-md-4 col-form-label text-md-right">{{ __('E-Mail Address') }}</label>
 
@@ -38,6 +41,62 @@
                                 @enderror
                             </div>
                         </div>
+
+
+                        <div class="form-group row">
+                            <label for="rut" class="col-md-4 col-form-label text-md-right">{{ __('RUT') }}</label>
+
+                            <div class="col-md-6">
+                                <input id="rut" type="rut" class="form-control @error('rut') is-invalid @enderror" name="rut" value="{{ old('rut') }}" required autocomplete="rut">
+
+                                @error('rut')
+                                    <span class="invalid-feedback" role="alert">
+                                        <strong>{{ $message }}</strong>
+                                    </span>
+                                @enderror
+                            </div>
+                        </div>
+
+                        
+
+                        <div class="form-group row">
+                            <label for="fono" class="col-md-4 col-form-label text-md-right">{{ __('FONO') }}</label>
+
+                            <div class="col-md-6">
+                                <input id="fono" type="fono" class="form-control @error('fono') is-invalid @enderror" name="fono" value="{{ old('fono') }}" required autocomplete="fono">
+
+                                @error('fono')
+                                    <span class="invalid-feedback" role="alert">
+                                        <strong>{{ $message }}</strong>
+                                    </span>
+                                @enderror
+                            </div>
+                        </div>
+
+
+
+                        <div class="form-group row">
+                            <label for="direccion" class="col-md-4 col-form-label text-md-right">{{ __('DIRECCION') }}</label>
+
+                            <div class="col-md-6">
+                                <input id="direccion" type="direccion" class="form-control @error('direccion') is-invalid @enderror" name="direccion" value="{{ old('direccion') }}" required autocomplete="direccion">
+
+                                @error('direccion')
+                                    <span class="invalid-feedback" role="alert">
+                                        <strong>{{ $message }}</strong>
+                                    </span>
+                                @enderror
+                            </div>
+                        </div>
+
+
+
+
+
+
+
+
+
 
                         <div class="form-group row">
                             <label for="password" class="col-md-4 col-form-label text-md-right">{{ __('Password') }}</label>
