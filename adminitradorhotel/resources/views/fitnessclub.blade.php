@@ -4,16 +4,14 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Hotel club UCT</title>
+        <title>HABITACION</title>
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
-
         <!-- Styles -->
+        <img src="/imagenes/u0.jpg"  width="1535" height="500" />
         <style>
             html, body {
-                background: url("/imagenes/u0.jpg");
-                background-size: cover ;
                 color: #636b6f;
                 font-family: 'Nunito', sans-serif;
                 font-weight: 200;
@@ -33,13 +31,15 @@
             }
 
             .position-ref {
-                position: relative;
+                position: absolute;
+                top: 100px;
+                right: 400px;
             }
 
             .top-right {
                 position: absolute;
-                right: 10px;
-                top: 18px;
+                right: 100px;
+                top: 380px;
             }
 
             .content {
@@ -68,43 +68,31 @@
             .m-b-md {
                 margin-bottom: 30px;
             }
+            .uper{
+                position: absolute;
+                top: 18px;
+                right:1435px;
+                border: 3px black groove;
+                background-color: #D8E04F;
+            }
 
         </style>
     </head>
     <body>
-        
-        <div class=" full-height flex-center">
-            @if (Route::has('login'))
-                <div class="top-right links">
-                    @auth
-                        <a href="{{ url('/home') }}">Home</a>
-                    @else
-                        <a href="{{ route('login') }}">Login</a>
+    <div class="uper">
+        <a href="/" class="btn btn-primary">  ATRAS </a> 
+    </div>   
 
-                        @if (Route::has('register'))
-                            <a href="{{ route('register') }}">Register</a>
-                        @endif
-                    @endauth
-                </div>
-            @endif      
-        </div>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br> 
-        <div class="content">                 
+        <div class="content full-height position-ref">                 
             <h1>HOTEL CLUB UCT</h1>               
         </div> 
         <br>
         <br>
         <br>   
-            <div class="links flex-center ">                                                            
-                <a href="/habitacion">Habitacion</a>
+            <div class="links flex-center top-right ">                                                            
                 <a href="/restaurant">RESTAURANT</a> 
                 <a href="/eventos">EVENTOS Y SALONES</a>  
-                <a href="/fitnessclub">FITNESS CLUB</a> 
+                <a href="/habitacion">HABITACIONES</a> 
                 <a href="/promociones">PROMOCIONES </a>            
             </div>    
         

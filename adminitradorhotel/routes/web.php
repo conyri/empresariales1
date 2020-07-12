@@ -16,6 +16,21 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+Route::get('/habitacion', function () {
+    return view('habitacion');
+});
+Route::get('/eventos', function () {
+    return view('eventos');
+});
+Route::get('/fitnessclub', function () {
+    return view('fitnessclub');
+});
+Route::get('/promociones', function () {
+    return view('promociones');
+});
+Route::get('/restaurant', function () {
+    return view('restaurant');
+});
 
 Route::resource('/administrador','administradorController');
 Route::resource('/cliente','ClienteController');
