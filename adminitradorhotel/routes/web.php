@@ -34,6 +34,21 @@ Route::get('/restaurant', function () {
 Route::get('/principaladmin', function () {
     return view('principaladmin');
 });
+Route::get('/habitacionesin/cinco', function () {
+    return view('/habitacionesin/cinco');
+});
+Route::get('/habitacionesin/cuatro', function () {
+    return view('/habitacionesin/cuatro');
+});
+Route::get('/habitacionesin/uno', function () {
+    return view('/habitacionesin/uno');
+});
+Route::get('/habitacionesin/dos', function () {
+    return view('/habitacionesin/dos');
+});
+Route::get('/habitacionesin/tres', function () {
+    return view('/habitacionesin/tres');
+});
 
 Route::resource('/administrador','administradorController');
 Route::resource('/cliente','ClienteController');

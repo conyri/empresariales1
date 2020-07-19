@@ -4,12 +4,12 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>HABITACIONES</title>
+        <title>HABITACION CINCO</title>
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
         <!-- Styles -->
-        <img src="/imagenes/u0.jpg"  width="1518" height="500" />
+        <img src="/imagenes/u0.jpg"  width="1530" height="500" />
         <style>
             html, body {
                 background-color: #E9D886;
@@ -122,66 +122,6 @@
                 <a href="/fitnessclub">FITNESS CLUB</a> 
                 <a href="/promociones">PROMOCIONES </a>            
             </div>
-            <strong><font color="black" size="4px" align="center" > <h1 >Hermosas habitaciones y suites amuebladas</h1> </font></strong>
-
-            <table class="egt">
-                <tr>
-                <td><img width="500" height="400" src="/imagenes/a01.jpg"  /></td>
-                <br><br>
-                <td><img width="500" height="400" src="/imagenes/a02.jpg"  /></td>
-
-                </tr>
-                <tr>
-                <td><font color="black" ><p ><h1>Junior Suite</h1> <br>La suite premium reúne espacio, lujo y elegancia
-                 para crear un verdadero oasis <br> urbano de baño exquisito </p></font>
-                 <a href="/habitacionesin/uno" class="button" >  DETALLES </a>
-                 </td>
-                <td><font color="black" ><p ><h1>Superior King</h1> <br> Las habitaciones Superior King poseen una cama extra 
-                grande, cálidos detalles en <br> madera  y un lujoso cuarto de baño de mármol.</p></font>
-                <a href="/habitacionesin/dos" class="button" >  DETALLES </a>
-                </td>
-                </tr>
-                <tr>
-                <td>  <br> </td>
-                </tr>
-                <tr>
-                <td><img width="500" height="400" src="/imagenes/a03.jpg"  /></td>
-                <br><br>
-                <td><img width="500" height="400" src="/imagenes/a04.jpg"  /></td>
-                </tr>
-                <br><br>
-                <tr>
-                <td><font color="black" ><p ><h1>Superior Twin</h1> <br>Cada habitación Superior Twin acondicionada de manera perfecta
-                 con los cálidos <br> detalles  de madera ofrece una sensibilidad contemporánea mediante comodidades<br> modernas  como Wi-Fi 
-                 gratuito, televisor de pantalla plana, mini bar y un cuarto <br>de baño  exquisito con ducha con mampara de vidrio. </p></font>
-                 <a href="/habitacionesin/tres" class="button" >  DETALLES </a>
-                 </td>
-                <td><font color="black" ><p ><h1>Standard King</h1> <br>Las habitaciones Standard King han sido diseñadas para ser 
-                santuarios <br> de paz y relajación con una cama doble extra grande, dos cómodas <br> sillas de estilo inglés   y 
-                un cuarto de baño exquisito.</p></font>
-                <a href="/habitacionesin/cuatro" class="button" >  DETALLES </a>
-                </td>
-                </tr>
-                <tr>
-                <td>  <br></td>
-                </tr>
-                <br><br>
-                <tr>
-                <td><img width="500" height="400" src="/imagenes/a05.jpg"  /></td>
-                </tr>
-                <tr>
-                <td><font color="black" ><p ><h1>Standard Twin</h1> <br> Ideal para familias o grupos, nuestras
-                 habitaciones <br> Standard Twin combinan la sofisticación clásica y el lujo moderno. Dos <br>camas extra 
-                 grandes, un cuarto de baño hermoso <br> con ducha con mampara de vidrio y detalles interiores elegantes
-                 conforman<br> el retiro ideal luego de un día de viaje, reuniones y paseos por Santiago..</p></font>
-                <a href="/habitacionesin/cinco" class="button" >  DETALLES </a></td>
-                </tr>
-                <tr>
-                <td>  <br><br> </td>
-                </tr>
-                
-
-            </table>
             
         
     </body>
