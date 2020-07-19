@@ -43,7 +43,6 @@ Route::resource('/habitaciones','habitacionesController');
 Route::resource('/reservas','reservasController');
 Route::resource('/servicios','serviciosController');
 
-
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
